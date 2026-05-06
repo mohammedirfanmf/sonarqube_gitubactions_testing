@@ -1,5 +1,6 @@
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello, SonarQube!");
+        String s = null;
+        System.out.println(s.length()); // NullPointerException
     }
 }
